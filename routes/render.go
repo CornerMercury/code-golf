@@ -153,7 +153,7 @@ func render(w http.ResponseWriter, r *http.Request, name string, data ...any) {
 		config.RedirectURL = "https://code.golf/callback"
 
 		if dev {
-			config.RedirectURL += "/dev"
+			config.RedirectURL = "https://localhost/callback/dev"
 		}
 
 		config.RedirectURL += "?redirect_uri=" + url.QueryEscape(r.RequestURI)
