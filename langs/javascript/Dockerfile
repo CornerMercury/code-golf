@@ -4,13 +4,13 @@ RUN apt-get update                   \
  && DEBIAN_FRONTEND='noninteractive' \
     apt-get install --yes curl g++ git pkgconf procps python3
 
-ENV PATH=/javascript:$PATH VER=15.2.124.18
+ENV PATH=/javascript:$PATH VER=15.3.76.10
 
 WORKDIR /javascript
 
 ADD --keep-git-dir https://chromium.googlesource.com/chromium/tools/depot_tools.git .
 
-RUN fetch --force v8
+RUN update_depot_tools && fetch --force v8
 
 WORKDIR /javascript/v8
 
