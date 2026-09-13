@@ -64,8 +64,8 @@ OD
 [APL]
 args       = [ '/usr/bin/apl', '-' ]
 experiment = 135
-size       = '14.4 MiB'
-version    = 'Dyalog APL 19.0.50027'
+size       = '15.5 MiB'
+version    = 'Dyalog APL 20.0.53963'
 website    = 'https://www.dyalog.com'
 example    = '''
 ⍝ Printing
@@ -280,8 +280,8 @@ v Accessing arguments
 
 [Berry]
 args    = [ '/usr/bin/berry', '-' ]
-size    = '832 KiB'
-version = 'c304823'
+size    = '837 KiB'
+version = '6e6e621'
 website = 'https://berry-lang.github.io'
 example = '''
 # Printing
@@ -370,7 +370,7 @@ int main(int argc, char* argv[]) {
 args    = [ '/usr/bin/c-sharp', '-' ]
 env     = [ 'DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1' ]
 size    = '112 MiB'
-version = 'C# 14.0 on .NET 10.0.11'
+version = 'C# 14.0 on .NET 10.0.12'
 website = 'https://docs.microsoft.com/dotnet/csharp/'
 example = '''
 // Printing
@@ -390,8 +390,8 @@ foreach (String arg in args)
 
 ['C++']
 args    = [ '/usr/bin/cpp', '-' ]
-size    = '115 MiB'
-version = 'Clang 22.1.8'
+size    = '118 MiB'
+version = 'Clang 23.1.1'
 website = 'https://clang.llvm.org'
 example = '''
 #include <print>
@@ -418,8 +418,8 @@ int main(int argc, char* argv[]) {
 [Civet]
 args    = [ '/usr/local/dist/civet', '--comptime', '--no-config', '-' ]
 env     = [ 'NODE_ICU_DATA=/usr/share/icu' ]
-size    = '80.8 MiB'
-version = '0.11.13'
+size    = '81.0 MiB'
+version = '0.11.15'
 website = 'https://civet.dev'
 example = '''
 // Printing
@@ -437,7 +437,7 @@ for arg of process.argv[2..]
 [CJam]
 args       = [ '/opt/java/bin/java', '-jar', 'cjam.jar', '/proc/self/fd/0' ]
 experiment = 1493
-size       = '57.8 MiB'
+size       = '57.9 MiB'
 version    = '0.6.5'
 website    = 'https://sourceforge.net/projects/cjam/'
 example    = '''
@@ -453,8 +453,8 @@ eaN*
 
 [Clojure]
 args    = [ '/usr/bin/bb', '/proc/self/fd/0' ]
-size    = '70.1 MiB'
-version = 'Babashka 1.13.219'
+size    = '72.2 MiB'
+version = 'Babashka 1.13.220'
 website = 'https://babashka.org'
 example = '''
 ; Printing
@@ -589,8 +589,8 @@ end
 [D]
 args    = [ '/usr/bin/D', '-' ]
 env     = [ 'PATH=/usr/bin' ]
-size    = '98.7 MiB'
-version = 'DMD 2.112.0'
+size    = '98.9 MiB'
+version = 'DMD 2.112.1'
 website = 'https://dlang.org'
 example = '''
 import std.stdio;
@@ -614,7 +614,7 @@ void main(string[] argv) {
 [Dart]
 args    = [ '/usr/bin/dart', '/proc/self/fd/0' ]
 size    = '187 MiB'
-version = '3.13.0'
+version = '3.13.3'
 website = 'https://dart.dev'
 example = '''
 void main(List<String> argv) {
@@ -657,10 +657,10 @@ none
 '''
 
 [Elixir]
-args    = [ '/usr/local/bin/elixir', '--color', '-e', '$code', '--' ]
+args    = [ '/usr/bin/elixir', '--color', '-e', '$code', '--' ]
 env     = [ 'LANG=C.UTF-8' ]
 size    = '58.8 MiB'
-version = '1.20.3'
+version = '1.20.4'
 website = 'https://elixir-lang.org'
 example = '''
 # Printing
@@ -678,7 +678,7 @@ args     = [ '/usr/bin/erlang', '-' ]
 env      = [ 'LANG=C.UTF-8' ]
 released = 2025-11-27
 size     = '51.1 MiB'
-version  = 'OTP 29.0.5'
+version  = 'OTP 29.0.6'
 website  = 'https://www.erlang.org'
 example  = '''
 main(Args) ->
@@ -696,7 +696,7 @@ main(Args) ->
 args    = [ '/usr/bin/f-sharp', '-' ]
 env     = [ 'DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1' ]
 size    = '114 MiB'
-version = 'F# 10.0 on .NET 10.0.11'
+version = 'F# 10.0 on .NET 10.0.12'
 website = 'https://fsharp.org'
 example = '''
 [<EntryPoint>]
@@ -802,7 +802,7 @@ end
 [Gleam]
 args    = [ '/usr/bin/gleam', '-' ]
 env     = [ 'LANG=C.UTF-8' ]
-size    = '75.9 MiB'
+size    = '75.8 MiB'
 version = '1.18.1'
 website = 'https://gleam.run'
 example = '''
@@ -826,8 +826,8 @@ pub fn main() {
 [Go]
 args    = [ '/usr/bin/gowrapper', '-' ]
 env     = [ 'GOCACHE=/tmp/cache' ]
-size    = '350 MiB'
-version = '1.26.6'
+size    = '374 MiB'
+version = '1.27.1'
 website = 'https://go.dev'
 example = '''
 package main
@@ -874,8 +874,8 @@ n*
 args     = [ '/usr/bin/groovy', '-e', '$code' ]
 env      = [ 'JAVA_HOME=/opt/java', 'JAVA_OPTS=-XX:ActiveProcessorCount=1' ]
 released = 2025-08-29
-size     = '66.0 MiB'
-version  = '5.0.8'
+size     = '66.2 MiB'
+version  = '5.1.2'
 website  = 'https://groovy-lang.org'
 example  = '''
 // Printing
@@ -1012,7 +1012,7 @@ example = '''
 [Hush]
 args       = [ '/usr/bin/hush', '-' ]
 experiment = 656
-size       = '2.18 MiB'
+size       = '2.20 MiB'
 version    = '0.1.4'
 website    = 'https://hush-shell.github.io'
 example    = '''
@@ -1069,8 +1069,8 @@ $
 [J]
 args    = [ '/usr/bin/j', '/proc/self/fd/0' ]
 env     = [ 'GLIBC_TUNABLES=glibc.rtld.execstack=2' ]
-size    = '11.5 MiB'
-version = '9.6.3'
+size    = '11.6 MiB'
+version = '9.7.1'
 website = 'https://www.jsoftware.com'
 example = '''
 NB.Printing
@@ -1085,8 +1085,8 @@ echo each 2}.ARGV
 
 [Janet]
 args    = [ '/usr/bin/janet', '/proc/self/fd/0' ]
-size    = '989 KiB'
-version = '1.41.2'
+size    = '1.00 MiB'
+version = '1.42.0'
 website = 'https://janet-lang.org'
 example = '''
 # Printing
@@ -1104,7 +1104,7 @@ example = '''
 [Java]
 args    = [ '/usr/bin/java', '-' ]
 size    = '52.5 MiB'
-version = 'OpenJDK 25.0.4'
+version = 'OpenJDK 25.0.4.1'
 website = 'https://openjdk.java.net'
 example = '''
 void main(String[] args) {
@@ -1123,8 +1123,8 @@ void main(String[] args) {
 
 [JavaScript]
 args    = [ '/usr/bin/javascript', '-e', 'delete load;delete read;delete readbuffer;delete writeFile', '-e', '$code', '--' ]
-size    = '48.5 MiB'
-version = 'V8 15.1.206.16'
+size    = '49.4 MiB'
+version = 'V8 15.3.76.10'
 website = 'https://v8.dev'
 example = '''
 // Printing
@@ -1195,7 +1195,7 @@ example = '''
 args       = [ '/usr/bin/knight', '-e', '$code' ]
 experiment = 2360
 size       = '372 KiB'
-version    = '1981682'
+version    = 'a2c31e4'
 website    = 'https://github.com/synt7x/knightjit'
 example    = '''
 # Printing
@@ -1216,8 +1216,8 @@ example    = '''
 
 [Kotlin]
 args    = [ '/opt/java/bin/java', '--enable-native-access=ALL-UNNAMED', '--sun-misc-unsafe-memory-access=allow', '-jar', '/usr/lib/kotlin-compiler.jar', '-Xuse-fast-jar-file-system', '-e', '$code', '--' ]
-size    = '141 MiB'
-version = '2.4.10'
+size    = '139 MiB'
+version = '2.4.20'
 website = 'https://kotlinlang.org'
 example = '''
 // Printing
@@ -1278,8 +1278,8 @@ end
 [Luau]
 args       = [ '/usr/bin/luau', '-' ]
 experiment = 1044
-size       = '6.09 MiB'
-version    = '0.734'
+size       = '6.03 MiB'
+version    = '0.737'
 website    = 'https://luau.org'
 example    = '''
 -- Printing
@@ -1299,7 +1299,7 @@ end
 [Nim]
 args    = [ '/usr/bin/nim', '--colors:on', '-o:/tmp/code', '-r', 'c', '-' ]
 size    = '14.9 MiB'
-version = '2.2.10'
+version = '2.2.12'
 website = 'https://nim-lang.org'
 example = '''
 import os
@@ -1319,7 +1319,7 @@ for arg in commandLineParams():
 [OCaml]
 args    = [ '/usr/bin/ocaml', '-color=always', '/proc/self/fd/0' ]
 size    = '101 MiB'
-version = '5.5.0'
+version = '5.5.1'
 website = 'https://ocaml.org'
 example = '''
 (* Printing *)
@@ -1340,8 +1340,8 @@ Sys.argv
 [Odin]
 args       = [ '/usr/bin/odinwrapper', '-', '--' ]
 experiment = 766
-size       = '331 MiB'
-version    = '2026-08'
+size       = '335 MiB'
+version    = '2026-09'
 website    = 'https://odin-lang.org'
 example    = '''
 package main
@@ -1408,7 +1408,7 @@ say for @ARGV;
 [PHP]
 args    = [ '/usr/bin/php', '--' ]
 size    = '15.5 MiB'
-version = '8.5.9'
+version = '8.5.10'
 website = 'https://www.php.net'
 example = '''
 # Printing
@@ -1458,8 +1458,8 @@ main(Args) =>
 args       = [ '/usr/bin/powershell' ]
 args-quine = [ '/usr/bin/powershell', '--explicit' ]
 env        = [ 'DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1' ]
-size       = '140 MiB'
-version    = 'PowerShell 7.6.5 on .NET 10.0.11'
+size       = '148 MiB'
+version    = 'PowerShell 7.6.6 on .NET 10.0.12'
 website    = 'https://docs.microsoft.com/powershell/scripting/overview'
 example    = '''
 # Printing
@@ -1676,8 +1676,8 @@ end
 
 [Rust]
 args    = [ '/usr/bin/rust', '-' ]
-size    = '421 MiB'
-version = '1.97.1'
+size    = '409 MiB'
+version = '1.98.1'
 website = 'https://www.rust-lang.org'
 example = '''
 fn main() {
@@ -1889,8 +1889,8 @@ Hello, World!
 [Uiua]
 args       = [ '/usr/bin/uiua', 'eval', '--', '$code' ]
 experiment = 1115
-size       = '28.0 MiB'
-version    = '0.18.1'
+size       = '31.6 MiB'
+version    = '0.19.1'
 website    = 'https://www.uiua.org'
 example    = '''
 # Printing
@@ -1906,8 +1906,8 @@ example    = '''
 [Umka]
 args       = [ '/usr/bin/umka', '-' ]
 experiment = 1921
-size       = '1.00 MiB'
-version    = '1.5.6'
+size       = '1.01 MiB'
+version    = '1.5.7'
 website    = 'https://github.com/vtereshkov/umka-lang'
 example    = '''
 import "std.um"

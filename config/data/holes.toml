@@ -601,21 +601,27 @@ authors = [
     '01923841-7fc8-7cce-b6b9-50df9ea1756e', # 4atj
 ]
 category = 'Gaming'
-experiment = 2705
+released = 2026-09-01
 synopsis = 'Determine if a chess move is valid.'
 preamble = '''
 <p>
-    Given a list of moves on an empty 8&times;8 chessboard, determine which ones are legal and print them.
-</p>
+    Given a list of moves on an empty 8×8 chessboard, determine which ones are
+    legal and print them.
 
 <h3>Move Format</h3>
+
 <p>
-    A 5-character string formatted as <code>[Piece][Start File][Start Rank][End File][End Rank]</code>:
-</p>
+    A 5-character string formatted as
+    <code>[Piece][Start File][Start Rank][End File][End Rank]</code>:
+
 <ul>
-    <li><b>Pieces:</b> <code>K</code> (King), <code>Q</code> (Queen), <code>R</code> (Rook), <code>B</code> (Bishop), <code>N</code> (Knight)</li>
-    <li><b>Files:</b> <code>a</code> through <code>h</code></li>
-    <li><b>Ranks:</b> <code>1</code> through <code>8</code></li>
+    <li><b>Pieces:</b>
+        <code>K</code> (King), <code>Q</code> (Queen), <code>R</code> (Rook),
+        <code>B</code> (Bishop), <code>N</code> (Knight)
+    <li><b>Files:</b>
+        <code>a</code> through <code>h</code>
+    <li><b>Ranks:</b>
+        <code>1</code> through <code>8</code>
 </ul>
 '''
 
@@ -4980,6 +4986,27 @@ preamble = '''
 <p>
     Output the total score for each game on a separate line. The total score
     is the total number of pins knocked down plus strike and spare bonuses.
+'''
+
+['Thue–Morse Constant']
+authors = [
+    '0199e39c-12da-7bb5-9bd5-73eb397e3d2c', # JOrE20
+]
+category = 'Mathematics'
+links = [
+    { name = 'OEIS A010060', url = '//oeis.org/A010060' },
+    { name = 'Wikipedia',    url = '//en.wikipedia.org/wiki/Prouhet–Thue–Morse_constant' },
+]
+experiment = 2721
+synopsis = 'Print the first 1,000 digits of the Thue–Morse Constant.'
+preamble = '''
+<p>
+    The Thue–Morse constant is created by interpreting the
+    <a href=//oeis.org/A010060>Thue–Morse sequence (A010060)</a>
+    (the parity of the popcount of each nonnegative integer) as a binary
+    fraction.
+
+<p>Print the first 1,000 decimal digits of the Thue–Morse constant.
 '''
 
 [Tic-tac-toe]
